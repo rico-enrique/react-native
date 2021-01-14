@@ -1,0 +1,40 @@
+warning: LF will be replaced by CRLF in App.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/App.js b/App.js[m
+[1mindex 23cd158..e47f846 100644[m
+[1m--- a/App.js[m
+[1m+++ b/App.js[m
+[36m@@ -39,32 +39,7 @@[m [mconst App: () => React$Node = () => {[m
+             </View>[m
+           )}[m
+           <View style={styles.body}>[m
+[31m-            <View style={styles.sectionContainer}>[m
+[31m-              <Text style={styles.sectionTitle}>Step One</Text>[m
+[31m-              <Text style={styles.sectionDescription}>[m
+[31m-                Edit <Text style={styles.highlight}>App.js</Text> to change this[m
+[31m-                screen and then come back to see your edits.[m
+[31m-              </Text>[m
+[31m-            </View>[m
+[31m-            <View style={styles.sectionContainer}>[m
+[31m-              <Text style={styles.sectionTitle}>See Your Changes</Text>[m
+[31m-              <Text style={styles.sectionDescription}>[m
+[31m-                <ReloadInstructions />[m
+[31m-              </Text>[m
+[31m-            </View>[m
+[31m-            <View style={styles.sectionContainer}>[m
+[31m-              <Text style={styles.sectionTitle}>Debug</Text>[m
+[31m-              <Text style={styles.sectionDescription}>[m
+[31m-                <DebugInstructions />[m
+[31m-              </Text>[m
+[31m-            </View>[m
+[31m-            <View style={styles.sectionContainer}>[m
+[31m-              <Text style={styles.sectionTitle}>Learn More</Text>[m
+[31m-              <Text style={styles.sectionDescription}>[m
+[31m-                Read the docs to discover what to do next:[m
+[31m-              </Text>[m
+[31m-            </View>[m
+[31m-            <LearnMoreLinks />[m
+[32m+[m[32m              <Text style={styles.sectionTitle}>Hello World</Text>[m
+           </View>[m
+         </ScrollView>[m
+       </SafeAreaView>[m
